@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Cozy/Organic Dark Mode styles aligned with Lavender theme */
+
+/* General body */
+body {
+    background-color: #73648A; /* Muted purple for background */
+    font-family: Inter, sans-serif; /* Updated to Inter font */
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #A66FB5; /* Soft lavender purple */
+    border: none;
+    border-radius: 20px; /* Rounded corners for a cozy feel */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+.stButton>button:hover {
+    background-color: #B27FC2; /* A slightly darker lavender on hover */
+    transform: translateY(-2px); /* Lift for hover feedback */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Enhancing shadow for depth */
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #5A4E6E; /* Darker shade of lavender */
+    border: 1px solid #D3B9D4; /* Light lavender border for consistency */
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+/* Links and interactive elements */
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Panels and containers */
+.stContainer {
+    background-color: #5A4E6E; /* Lavender surface background */
+    border: 1px solid #D3B9D4; /* Consistent with button hover color */
+    border-radius: 12px; /* Soft rounded corners for a cozy feel */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding depth */
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+/* Inputs */
+.stTextInput>div {
+    background-color: #5A4E6E; /* Consistent with sidebar */
+    border: 1px solid #A66FB5; /* Soft lavender */
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+
+/* Divider lines */
+.stDivider {
+    background-color: #333333; /* Subtle gray for dividers */
+}
+
+/* Hover effects for active states */
+.stExpander>div:hover {
+    background-color: #4A3E5A; /* Darker lavender for hover state */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    font-family: 'Inter', sans-serif; /* Updated to Inter font */
+}
+/* Change background color of multiselect in sidebar */
+.stSidebar .stMultiSelect div div {
+    background-color: #5A4E6E !important; /* Dark lavender background */
+    color: white; /* Optional: to ensure the text is visible */
+}
