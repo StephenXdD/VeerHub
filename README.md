@@ -11,6 +11,41 @@ Short description of your project: what it does, its purpose, and its utility.
 - Interactive quizzes based on past paper questions.
 - Responsive design compatible with various devices.
 
+## Specifications on How to Use the Files
+
+### `theme_management.py`
+- Manages the light and dark themes of the Streamlit app.
+- Includes functions to toggle themes dynamically without restarting the app.
+
+### `worksheet.py`
+- Handles the creation of worksheets by filtering and merging PDFs based on selected criteria.
+- Offers functionality to download these resources as ZIP files.
+
+### `aboutus.py`
+- Displays information about the team behind the platform.
+- Located in the Streamlit app under the "About Us" section.
+
+### `app.py`
+- Main module that integrates various components and serves as the entry point for the Streamlit application.
+
+### `doubly_linked_list.py`
+- Provides a data structure to manage navigation between different academic papers within the application.
+
+### `filter_logic.py`
+- Contains functions for connecting to the database and retrieving or filtering academic papers.
+
+### `home.py`
+- Sets up and manages the homepage of the Streamlit application including navigation and layout.
+
+### `pdf_utils.py`
+- Offers utilities for handling PDF files, such as merging, converting to images, and downloading.
+
+### `quiz.py`
+- Manages quiz functionalities based on filtered academic papers to provide interactive learning experiences.
+
+### `styles.css`
+- Defines the CSS for the Streamlit application to ensure visual consistency and aesthetics.
+
 ## Demo
 
 Include a link to a live demo, if available, or a few screenshots/GIFs showing your project in action.
