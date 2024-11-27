@@ -64,8 +64,8 @@ cd yourrepository
 
 Explain how to use your project after installation. For example:
 ```bash
-# How to run the project
-# Example commands
+# Run the Streamlit application
+streamlit run home.py
 ```
 
 ## Support
