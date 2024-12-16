@@ -1,0 +1,123 @@
+/* General body */
+body {
+    background-color: var(--backgroundColor); /* Dynamically set background color */
+    font-family: 'Inter', sans-serif; /* Font consistent with theme */
+    color: rgba(74, 88, 153, 0.9); /* Dynamically set text color */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FF0000; /* Heading color from theme */
+}
+
+h1 {
+    color: rgba(74, 88, 153, 0.9);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below heading */
+    padding: 10px; /* Padding around text */
+    border: 2px solid rgba(74, 89, 153, 0.736); /* Bottom border for emphasis */
+    background-color: rgba(169, 169, 169, 0.25); /* Slight background color for contrast */
+    border-radius: 100px; /* Rounded corners */
+}
+
+h2 {
+    color: rgba(74, 88, 153, 0.9);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below heading */
+    padding: 10px; /* Padding around text */
+    border: 2px solid rgba(74, 88, 153, 0.9); /* Bottom border for emphasis */
+    background-color: rgba(255, 255, 255, 0.638); /* Slight background color for contrast */
+    border-radius: 100px; /* Rounded corners */
+}
+
+h3 {
+    color: rgba(74, 88, 153, 0.8); /* Slightly lighter color */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); /* Slightly lighter shadow */
+    margin-bottom: 15px; /* Slightly less space below heading */
+    padding: 8px; /* Slightly less padding around text */
+    border: 1px solid rgba(74, 88, 153, 0.8); /* Slightly lighter bottom border */
+    background-color: rgba(169, 169, 169, 0.25); /* Slightly lighter background color */
+    border-radius: 100px; /* Slightly less rounded corners */
+    width:300px;
+}
+
+/* Links and interactive elements */
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #007BFF; /* Bright blue for links for better visibility */
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: rgba(74, 88, 153, 0.9); /* Sidebar background */
+    border: 1px solid rgba(74, 88, 153, 0.9); /* Sidebar border color */
+    border-radius: 12px;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(74, 88, 153, 0.9); /* Light text for readability */
+}
+
+
+/* Panels and containers */
+.stContainer {
+    background-color: rgba(74, 88, 153, 0.9); /* Container background */
+    border: 1px solid rgba(74, 88, 153, 0.9); /* Container border */
+    border-radius: 100px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adding depth */
+    font-family: 'Inter', sans-serif;
+    color: rgba(74, 88, 153, 0.9); /* Light text */
+}
+
+/* Inputs */
+.stTextInput>div {
+    background-color: rgba(74, 88, 153, 0.9); /* Dark input background */
+    border: 1px solid rgba(74, 88, 153, 0.9); /* Deep muted blue border */
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(74, 88, 153, 0.9); /* Light text for inputs */
+}
+
+/* Divider lines */
+.stDivider {
+    background-color: rgba(74, 88, 153, 0.9); /* Divider color */
+}
+
+/* Hover effects for active states */
+.stExpander>div:hover {
+    background-color: rgba(74, 88, 153, 0.9); /* Background change on hover */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Change background color of multiselect in sidebar */
+.stSidebar .stMultiSelect div div {
+    background-color: rgba(74, 88, 153, 0.9) !important; /* Dark sage background */
+    color: rgba(74, 88, 153, 0.9); /* Light text for readability */
+}
+.stExpander {
+    background-color: rgba(74, 88, 153, 0.9); /* Dark background color */
+    border-radius: 12px; /* Rounded corners */
+    transition: all 0.3s ease;
+    color: #FFD700;
+}
+
+.stExpander:hover{
+    background-color: rgba(74, 88, 153, 0.9); /* Dark background color */
+    color: #f2ff00; /* Yellow text color */
+}
+
+.stExpander:active{
+    background-color: rgba(74, 88, 153, 0.9); /* Dark background color */
+    color: #f2ff00; /* Yellow text color */
+}
+.stButton>button {
+    width: 59%;
+}
+
+.stSelectbox label {
+    color: #287a57;
+}
